@@ -1,0 +1,36 @@
+cfRNA KD vs MIS-C Data Inspection Summary
+==========================================
+
+Metadata file: /Users/audreystruzyk/Downloads/data_ML/metadata_all_UCSD_MISC.csv
+Counts file: /Users/audreystruzyk/Downloads/data_ML/counts_all_UCSD_MISC.csv
+
+Dataset dimensions
+------------------
+Metadata shape: 141 rows x 5 columns
+Counts shape: 56583 rows x 142 columns
+Detected metadata sample ID column: sample_id
+Detected class label column: diagnosis
+Detected count sample columns: 141
+
+Sample matching
+---------------
+Shared samples: 141
+Samples match exactly: True
+Metadata samples missing from counts: 0
+None
+Count samples missing from metadata: 0
+None
+
+Class balance
+-------------
+  - KD: 98
+  - MISC: 43
+
+Missing values
+--------------
+Total missing values in metadata: 0
+Metadata columns with missing values:
+None
+Total missing values in counts: 0
+Counts columns with missing values:
+None
